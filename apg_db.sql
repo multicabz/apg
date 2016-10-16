@@ -635,7 +635,7 @@ INSERT INTO `apg_settings` (`name`, `module`, `value`) VALUES
 ('site.show_profiler', 'core', '1'),
 ('site.status', 'core', '1'),
 ('site.system_email', 'core', 'admin@mybonfire.com'),
-('site.title', 'core', 'My Bonfire'),
+('site.title', 'core', 'APG Trace Inc'),
 ('smtp_host', 'email', ''),
 ('smtp_pass', 'email', ''),
 ('smtp_port', 'email', ''),
