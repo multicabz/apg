@@ -24,7 +24,7 @@ if (isset($shortcut_data) && is_array($shortcut_data['shortcut_keys'])) {
     /* Modernizr is loaded before CSS so CSS can utilize its features */
     ?>
 	<script src="<?php echo Template::theme_url('js/modernizr-2.5.3.js'); ?>"></script>
-	<?php echo Assets::css(null, true); ?>
+	<?php echo Assets::css(null,'screen', true); ?>
 </head>
 <body class="desktop">
     <!--[if lt IE 7]>
