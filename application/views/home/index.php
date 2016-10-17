@@ -33,22 +33,30 @@
   <p>APG Trade, Inc.'s goal is to provide process, financial, and financial distress management services, to insure that our customers' businesses run efficiently.</p>
   <p><a class="btn btn-small btn-read-more" href="#" role="button">Read more</a></p>
 </div>
-
-<div class="row icons">
-    <div class="col-lg-3">
-      <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-      <h2>Heading</h2>
+<div class="row icons text-center">
+    <div class="col-md-2 col-md-offset-1">
+        <img class="img-circle" src="<?php echo site_url('assets/images/logos/business_process.png'); ?>" alt="Generic placeholder image" width="140" height="140">
+        <h2>Business Process Management</h2>
+        <p>Making workflow powerful and effective.</p>
     </div><!-- /.col-lg-4 -->
-    <div class="col-lg-3">
-      <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-      <h2>Heading</h2>
+    <div class="col-md-2">
+        <img class="img-circle" src="<?php echo site_url('assets/images/logos/risk_management.png'); ?>" alt="Generic placeholder image" width="140" height="140">
+        <h2>Business Process Management</h2>
+        <p>Finding and minimizing financial risks.</p>
     </div><!-- /.col-lg-4 -->
-    <div class="col-lg-3">
-      <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-      <h2>Heading</h2>
+    <div class="col-md-2">
+        <img class="img-circle" src="<?php echo site_url('assets/images/logos/financial_management.png'); ?>" alt="Generic placeholder image" width="140" height="140">
+        <h2>Financial Management</h2>
+        <p>Planning and organizing funds</p>
     </div><!-- /.col-lg-4 -->
-     <div class="col-lg-3">
-      <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-      <h2>Heading</h2>
-    </div><!-- /.col-lg-4 --
+     <div class="col-md-2">
+        <img class="img-circle" src="<?php echo site_url('assets/images/logos/financing_services.png'); ?>" alt="Generic placeholder image" width="140" height="140">
+         <h2>Financing Services</h2>
+         <p>Operations with credit lines and financial institutions</p>
+     </div>
+     <div class="col-md-2">
+        <img class="img-circle" src="<?php echo site_url('assets/images/logos/financial_distress.png'); ?>" alt="Generic placeholder image" width="140" height="140">
+         <h2>Financial Distress Work-Outs</h2>
+         <p>Developing a plan in order to minimize impact from an unexpected financial situation</p>
+     </div>
 </div><!-- /.row -->
