@@ -1,8 +1,10 @@
 <?php
 
-Assets::add_css(array('bootstrap.min.css', 'bootstrap-responsive.min.css'));
+Assets::add_css(array('bootstrap.min.css',
+                      'bootstrap-responsive.min.css',
+                      'https://fonts.googleapis.com/css?family=Arimo|Open+Sans+Condensed:300|PT+Sans+Narrow|Playfair+Display'));
 
-Assets::add_js('bootstrap.min.js');
+Assets::add_js(array('bootstrap.min.js','script'));
 
 $inline  = '$(".dropdown-toggle").dropdown();';
 $inline .= '$(".tooltips").tooltip();';
